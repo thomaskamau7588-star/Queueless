@@ -92,3 +92,46 @@ main{
 #search button:hover {
     background-color: #102a43;
 }
+
+/* popular categories */
+#categories {
+    text-align: center;
+    padding: 30px;
+}
+
+  #categories h2 {
+    color: #12408b;
+    margin-bottom: 30px;
+}
+  
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.category-card {
+    background-color: white;
+    border: 2px solid #102a43;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.category-card h3 {
+    color: #102a43;
+}
+
+.category-card p {
+    line-height: 1.5;
+}
+
+.category-card a:hover {
+    text-decoration: underline;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
