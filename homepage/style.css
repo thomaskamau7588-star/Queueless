@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f7fa;
+    color: #3e3939;
+}
+
+/* header */
+header{
+    background-color: #20486e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin:0 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin:0 10px;
+}
+
+nav a:hover{
+    color: #1683f5;
+}
+
+/* main */
+main{
+    padding: 20px;
+}
+
+/* hero section */
+#hero {
+    background-color: #c1d8f4;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+}
+
+#hero h2 {
+    font-size: 35px;
+    color: #102a43;
+}
+
+#hero p {
+    font-size: 16px;
+}
