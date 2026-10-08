@@ -168,3 +168,11 @@ main{
     color: #102a43;
 }
 
+.steps {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+
