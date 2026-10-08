@@ -42,7 +42,7 @@ main{
 
 #hero h2 {
     font-size: 35px;
-    color: #102a43;
+    color: #12408b;
 }
 
 #hero p {
@@ -128,7 +128,8 @@ main{
 }
 
 .category-card a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #1683f5;
 }
 
 .category-card:hover {
@@ -174,5 +175,62 @@ main{
     gap: 20px;
 }
 
+/* safety section */
 
+#safety {
+    background-color: #c1d8f4;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
 
+#safety h2 {
+    color: #12408b;
+}
+
+#safety a {
+    color: #1683f5;
+    text-decoration: none;
+}
+
+#safety a:hover {
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+/* mobile responsiveness */
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+     #hero h2 {
+        font-size: 30px;
+    }
+     #search input {
+        width: 80%;
+    }
+
+     .category-container {
+        grid-template-columns: 1fr;
+    }
+    
+     .steps {
+        flex-direction: column;
+    }
+}
