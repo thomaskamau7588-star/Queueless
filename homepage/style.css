@@ -71,3 +71,24 @@ main{
     text-align: center;
     border-radius: 8px;
 }
+
+#search input {
+    padding: 12px;
+    width: 50%;
+    margin: 10px;
+    border: 1px solid #0b0808;
+    border-radius: 5px;
+}
+
+#search button {
+    padding: 12px 30px;
+    background-color: #1683f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search button:hover {
+    background-color: #102a43;
+}
