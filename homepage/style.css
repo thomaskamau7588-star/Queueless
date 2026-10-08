@@ -48,3 +48,26 @@ main{
 #hero p {
     font-size: 16px;
 }
+
+#hero a {
+    display: inline-block;
+    background-color: #1683f5;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+#hero a:hover {
+    background-color: #102a43;
+}
+
+/* search section */
+#search {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 8px;
+}
