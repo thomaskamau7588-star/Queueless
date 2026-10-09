@@ -57,4 +57,7 @@ main{
 #service-search{
     background-color: white;
     margin-bottom: 20px;
+    padding: 25px;
+    text-align: center;
+    
 }
