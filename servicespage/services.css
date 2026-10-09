@@ -1,0 +1,60 @@
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0%;
+    background-color: #f4f7fa;
+    color: #3e3939;
+}
+
+/* header */
+
+header{
+    background-color: #20486e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+   margin: 20px; 
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover{
+    color: #1683f5;
+}
+
+/* main */
+
+main{
+    padding: 20px;
+}
+
+/* hero section */
+
+#services-intro{
+    background-color: white;
+     text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+}
+
+#services-intro h2{
+    color: #12408b;
+    font-size: 30px;
+
+}
+
+#services-intro p{
+    font-size: 16px;
+}
+
+#service-search{
+    background-color: white;
+    margin-bottom: 20px;
+}
