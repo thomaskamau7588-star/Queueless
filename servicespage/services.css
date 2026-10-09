@@ -39,7 +39,7 @@ main{
 
 #services-intro{
     background-color: white;
-     text-align: center;
+    text-align: center;
     padding: 60px 20px;
     margin-bottom: 30px;
 }
@@ -54,10 +54,17 @@ main{
     font-size: 16px;
 }
 
+/* search section */
+
 #service-search{
     background-color: white;
     margin-bottom: 20px;
     padding: 25px;
     text-align: center;
-    
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#search-input{
+
 }
