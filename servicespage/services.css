@@ -61,10 +61,20 @@ main{
     margin-bottom: 20px;
     padding: 25px;
     text-align: center;
-    cursor: pointer;
     border-radius: 7px;
 }
 
-#search-input{
+#service-search-input{
+    margin: 20px;
+    padding: 100px;
+    width: 160px;
+    border: 2px solid rgb(20, 19, 19);
+    border-radius: 5px;
+}
+
+#service-search button{
+color: #1683f5;
 
 }
+
+ 
