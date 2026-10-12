@@ -172,9 +172,18 @@ main {
     line-height: 1.5;
 }
 
-.category-card a:hover {
+.category-card a {
+    display: inline-block;
+    background-color: #1683f5;
+    color: white;
     text-decoration: none;
-    color: #1683f5;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.category-card a:hover {
+    background-color: #102a43;
 }
 
 .category-card:hover {

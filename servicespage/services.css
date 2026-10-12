@@ -40,7 +40,7 @@ main {
 #services-intro {
     background-color: white;
     text-align: center;
-    padding: 60px 20px;
+    padding: 20px;
     margin-bottom: 30px;
 }
 
@@ -104,4 +104,38 @@ main {
     gap: 20px;
     max-width: 1000px;
     margin: auto;
+}
+
+.service-card {
+    background-color: white;
+    border: 2px solid #599674;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.service-card h3 {
+    color: #102a43;
+}
+
+.service-card p {
+    line-height: 1.5;
+}
+
+.service-card a {
+    display: inline-block;
+    background-color: #1683f5;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.service-card a:hover {
+    background-color: #102a43;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
 }
