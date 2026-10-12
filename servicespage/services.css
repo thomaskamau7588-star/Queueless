@@ -13,6 +13,9 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -138,4 +141,42 @@ main {
 
 .service-card:hover {
     transform: translateY(-5px);
+}
+
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+/* mobile responsivesness */
+
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+
+    #services-intro {
+        padding: 35px 15px;
+    }
+
+    #services-intro h2 {
+        font-size: 26px;
+    }
+
+    #service-search input {
+        width: 80%;
+        box-sizing: border-box;
+    }
 }
