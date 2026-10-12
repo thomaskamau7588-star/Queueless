@@ -28,3 +28,42 @@ nav a {
 nav a:hover {
     color: #1683f5;
 }
+
+main {
+    padding: 20px;
+}
+
+/* ABOUT INTRODUCTION */
+#about-intro {
+    background-color: #c1d8f4;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+#about-intro h2 {
+    color: #12408b;
+}
+
+#about-intro p {
+    line-height: 1.8;
+}
+
+/* ABOUT SECTIONS */
+.about-section {
+    background-color: white;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #102a43;
+    border-radius: 8px;
+}
+
+.about-section h2 {
+    color: #12408b;
+}
+
+.about-section p {
+    line-height: 1.8;
+}
