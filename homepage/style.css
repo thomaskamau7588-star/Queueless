@@ -12,14 +12,13 @@ header {
     background-color: #20486e;
     color: white;
     padding: 20px;
-    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header h1 {
-    margin: 0 15px;
+    margin: 0 0 10px;
 }
 
 nav a {
