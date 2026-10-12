@@ -85,3 +85,23 @@ main {
 #service-search button:hover {
     background-color: #102a43;
 }
+
+/* available services */
+
+#services {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#services h2 {
+    color: #12408b;
+    margin-bottom: 30px;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
