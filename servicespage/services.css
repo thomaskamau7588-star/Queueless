@@ -1,6 +1,6 @@
-body{
-    font-family:  Arial, Helvetica, sans-serif;
-    margin:0;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
     padding: 0%;
     background-color: #f4f7fa;
     color: #3e3939;
@@ -8,55 +8,55 @@ body{
 
 /* header */
 
-header{
+header {
     background-color: #20486e;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-h1{
-   margin: 20px; 
+h1 {
+    margin: 20px;
 }
 
-nav a{
+nav a {
     color: white;
     text-decoration: none;
     margin: 10px;
 }
 
-nav a:hover{
+nav a:hover {
     color: #1683f5;
 }
 
 /* main */
 
-main{
+main {
     padding: 20px;
 }
 
 /* hero section */
 
-#services-intro{
+#services-intro {
     background-color: white;
     text-align: center;
     padding: 60px 20px;
     margin-bottom: 30px;
 }
 
-#services-intro h2{
+#services-intro h2 {
     color: #12408b;
     font-size: 30px;
 
 }
 
-#services-intro p{
+#services-intro p {
     font-size: 16px;
 }
 
 /* search section */
 
-#service-search{
+#service-search {
     background-color: white;
     margin-bottom: 20px;
     padding: 25px;
@@ -64,17 +64,24 @@ main{
     border-radius: 7px;
 }
 
-#service-search-input{
+#service-search input {
     margin: 20px;
-    padding: 100px;
+    padding: 10px;
     width: 160px;
+    max-width: 80%;
     border: 2px solid rgb(20, 19, 19);
     border-radius: 5px;
 }
 
-#service-search button{
-color: #1683f5;
-
+#service-search button {
+    padding: 12px 25px;
+    background-color: #1683f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
- 
+#service-search button:hover {
+    background-color: #102a43;
+}
