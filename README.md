@@ -40,11 +40,7 @@ Explains the purpose and mission of QueueLess.
 - Government Offices
 - Education Services
 - Digital Services
-<<<<<<< HEAD
 - Repair Centres
-=======
-- Repair Services
->>>>>>> 453604fa0b4cc519b6ce61fda3aaa17c18146100
 
 ## Technologies Used
 
@@ -73,10 +69,6 @@ QueueLess is a capstone project under development, built using HTML and CSS.
 
 Thomas Kamau
 
-<<<<<<< HEAD
 ## License
 
 This project was created for educational purposes as part of a software development capstone project.
-=======
-
->>>>>>> 453604fa0b4cc519b6ce61fda3aaa17c18146100
