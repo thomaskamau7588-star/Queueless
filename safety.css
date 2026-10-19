@@ -38,3 +38,75 @@ nav a:hover {
     color: #1683f5;
 }
 
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Page introduction */
+#safety-intro {
+    background-color: #c1d8f4;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+#safety-intro h2 {
+    color: #12408b;
+    margin-top: 0;
+}
+
+/* Safety tips section */
+#safety-tips h2 {
+    color: #12408b;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.safety-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Individual safety cards */
+.safety-card {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #102a43;
+    border-radius: 8px;
+}
+
+.safety-card h3 {
+    color: #12408b;
+    margin-top: 0;
+}
+
+/* Important reminder */
+#safety-reminder {
+    background-color: #c1d8f4;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: 35px 0;
+}
+
+#safety-reminder h2 {
+    color: #12408b;
+}
+
+#safety-reminder a {
+    display: inline-block;
+    background-color: #1683f5;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#safety-reminder a:hover {
+    background-color: #102a43;
+}
