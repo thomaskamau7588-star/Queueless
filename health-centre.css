@@ -1,0 +1,167 @@
+
+/* General page styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f7fa;
+    color: #3e3939;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #20486e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+   color: #1683f5;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Content sections */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #d5e0ea;
+}
+
+/* Section headings */
+section h1,
+section h2 {
+    color: #12408b;
+}
+
+section h1 {
+    margin-top: 0;
+}
+
+/* Health centre image */
+section img {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px auto 0;
+    border: 2px solid #c1d8f4;
+}
+
+/* Important information */
+strong {
+    color: #102a43;
+}
+
+/* Busy periods table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #20486e;
+    color: white;
+}
+
+/* Lists */
+ul {
+    padding-left: 25px;
+}
+
+/* Links and buttons */
+section a {
+    display: inline-block;
+    background-color: #0f5fc0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 8px 8px 0 0;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+section a:hover {
+    background-color: #102a43;
+}
+
+/* Footer */
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 12px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    /* Adjust image size on phones */
+    section img {
+        height: 220px;
+    }
+
+    /* Allow the table to scroll on small screens */
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    section a {
+        display: block;
+        text-align: center;
+    }
+}
