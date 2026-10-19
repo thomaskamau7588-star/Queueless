@@ -116,3 +116,50 @@ main {
 #visit-reminder a:hover {
     background-color: #102a43;
 }
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h2 {
+    margin: 0;
+}
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+/* Tablet responsiveness */
+@media (max-width: 768px) {
+    .visit-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav {
+        gap: 12px;
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 500px) {
+    .visit-container {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        padding: 0 15px;
+    }
+
+    #visit-intro,
+    #visit-reminder {
+        padding: 25px 15px;
+    }
+}
