@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-    margin-bottom: 5px;
+   margin: 0 0 10px;
 }
 
 header p {
@@ -23,8 +23,6 @@ header p {
 
 /* Navigation */
 nav {
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 20px;
@@ -39,3 +37,4 @@ nav a {
 nav a:hover {
     color: #1683f5;
 }
+
