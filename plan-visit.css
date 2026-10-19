@@ -137,17 +137,6 @@ footer h2 {
     margin: 0;
 }
 
-/* Tablet responsiveness */
-@media (max-width: 768px) {
-    .visit-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    nav {
-        gap: 12px;
-    }
-}
-
 /* Mobile responsiveness */
 @media (max-width: 500px) {
     .visit-container {
