@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #3e3939;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #20486e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin: 5px 0 15px;
+}
+
+/* Navigation links */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1683f5;
+}
+
