@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #3e3939;
+}
+
+/* header */
+
+header {
+    background-color: #20486e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin:0 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #1683f5;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Introduction section */
+#visit-intro {
+    background-color: #c1d8f4;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+#visit-intro h2 {
+    color: #12408b;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Planning steps section */
+#visit-steps h2 {
+    color: #12408b;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Planning cards layout */
+.visit-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Individual planning cards */
+.visit-card {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #102a43;
+    border-radius: 8px;
+}
+
+/* Card headings */
+.visit-card h3 {
+    color: #12408b;
+    margin-top: 10px;
+}
+
+/* Step numbers */
+.step-number {
+    display: inline-block;
+    color: #1683f5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Visit reminder section */
+#visit-reminder {
+    background-color: #c1d8f4;
+    text-align: center;
+    padding: 35px 20px;
+    margin: 35px 0;
+    border-radius: 10px;
+}
+
+#visit-reminder h2 {
+    color: #12408b;
+    margin-top: 0;
+}
+
+/* Explore Services button */
+#visit-reminder a {
+    display: inline-block;
+    background-color: #1683f5;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#visit-reminder a:hover {
+    background-color: #102a43;
+}
