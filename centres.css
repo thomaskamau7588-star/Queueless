@@ -14,6 +14,8 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -43,3 +45,130 @@ nav a:hover {
     color: #1683f5;
 }
 
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Page introduction */
+main > section:first-child {
+    background-color: #c1d8f4;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+main > section:first-child h1 {
+    color: #12408b;
+    margin-top: 0;
+}
+
+/* Service category sections */
+main > section {
+    margin-bottom: 35px;
+}
+
+main > section h2 {
+    color: #12408b;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+/* Service centre cards */
+article {
+    background-color: white;
+    border: 1px solid #d6e0eb;
+    border-left: 5px solid #599674;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 8px black;
+}
+
+/* Centre name */
+article h3 {
+    color: #20486e;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+/* Centre information */
+article p {
+    margin: 12px 0;
+}
+
+/* Details link */
+article a {
+    display: inline-block;
+    background-color: #1683f5;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Details link hover effect */
+article a:hover {
+    background-color: #102a43;
+}
+footer {
+    background-color: #20486e;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 40px;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 10px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    main > section:first-child {
+        padding: 25px 15px;
+    }
+
+    article {
+        padding: 20px;
+    }
+
+    article h3 {
+        font-size: 20px;
+    }
+}
+
+/* Responsive design for very small screens */
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    article a {
+        display: block;
+        text-align: center;
+    }
+}
