@@ -12,10 +12,10 @@ body {
 header {
     background-color: #20486e;
     color: white;
-    text-align: center;
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -31,7 +31,6 @@ nav {
     display: flex;
     justify-content: center;
     gap: 25px;
-    flex-wrap: wrap;
 }
 
 nav a {
@@ -46,9 +45,7 @@ nav a:hover {
 
 /* Main content */
 main {
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 0 20px;
+    padding:  20px;
 }
 
 /* Page introduction */

@@ -24,7 +24,7 @@ header h1 {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin:  10px;
 }
 
 nav a:hover {

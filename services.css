@@ -44,6 +44,7 @@ main {
     text-align: center;
     padding: 20px;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 
 #services-intro h2 {
