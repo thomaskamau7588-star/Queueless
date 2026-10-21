@@ -32,9 +32,7 @@ nav a:hover {
 }
 
 main {
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 0 20px;
+    padding: 20px;
 }
 
 /* Introduction section */
